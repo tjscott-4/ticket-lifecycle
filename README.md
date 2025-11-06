@@ -44,7 +44,7 @@ It showcases how IT professionals handle service requests from **initial intake*
    - **Issue Summary:** Short title and an optional detailed description  
 
 **Example:**  
-Jane Doe (`jane.doe1999@gmail.com`, 999-999-9999) submits a ticket reporting issues accessing **online mobile banking**.
+Karen submits a ticket reporting issues accessing **online mobile banking**.
 
 📘 **Why this matters:**  
 Accurate and detailed ticket submissions help technicians respond efficiently and prevent miscommunication.
@@ -53,7 +53,9 @@ Accurate and detailed ticket submissions help technicians respond efficiently an
 - End-user intake and ticket documentation  
 - Categorization and communication clarity  
 
-![End User Ticket Screenshot](images/ticket_intake.png)
+<img width="1303" height="565" alt="image" src="https://github.com/user-attachments/assets/b4749ec3-1465-465c-b5dc-22ce7cf85971" />
+<img width="1119" height="1387" alt="image" src="https://github.com/user-attachments/assets/e44e1387-b1d3-4f9c-9645-2814703830dc" />
+
 
 ---
 
@@ -61,15 +63,19 @@ Accurate and detailed ticket submissions help technicians respond efficiently an
 
 **Steps:**
 1. Log in as an **Administrator** at `http://localhost/osTicket/scp/login.php`  
-2. Navigate to **Tickets → Open** and select the new ticket  
-3. Configure the following fields:
-   - **Priority:** High  
-   - **Department:** Support or SysAdmins  
-   - **Assigned To:** Choose the appropriate agent  
-   - **SLA Plan:** SEV-A  
+2. Navigate to **Tickets → Open** and select the new ticket
+   <img width="629" height="226" alt="image" src="https://github.com/user-attachments/assets/47c3a913-8323-4f51-897d-1612757eb109" />
 
-4. Add internal notes or updates in the ticket thread  
-5. Click **Post Reply** to assign and notify the user  
+4. Configure the following fields:
+   - **Priority:** High  
+   - **Department:** Online Banking
+   - **Assigned To:** Choose the appropriate agent  
+   - **SLA Plan:** SEV-A
+ <img width="626" height="322" alt="image" src="https://github.com/user-attachments/assets/415edb2c-d2a8-4150-ac2c-549ba13939cb" />
+
+
+5. Add internal notes or updates in the ticket thread  
+6. Click **Post Reply** to assign and notify the user  
 
 📘 **Why this matters:**  
 Proper triage and communication ensure tickets are routed efficiently and within SLA expectations.
@@ -79,19 +85,26 @@ Proper triage and communication ensure tickets are routed efficiently and within
 - SLA application  
 - Clear internal and external communication  
 
-![Admin Assign Ticket Screenshot](images/ticket_assignment.png)
+
+
 
 ---
 
 ### 🛠️ **Working the Issue**
 
 **Steps:**
-1. Log in as the **Assigned Agent** at `http://localhost/osTicket/scp/login.php`  
-2. View the **Tickets** dashboard showing ticket number, priority, subject, submitter, and assigned agent  
+1. Log in as the **Assigned Agent** at `http://localhost/osTicket/scp/login.php`
+<img width="370" height="255" alt="image" src="https://github.com/user-attachments/assets/7b218ff4-24b7-4397-b260-bb47eae75433" />
+
+2. View the **Tickets** dashboard showing ticket number, priority, subject, submitter, and assigned agent
+<img width="653" height="244" alt="image" src="https://github.com/user-attachments/assets/e2e45336-834a-4491-80b7-211f03beeb7c" />
+ 
 3. Open the ticket to:
    - Review ticket history and updates  
    - Communicate with the end user through **Post Reply**  
-   - Leave internal notes for other technicians or supervisors  
+   - Leave internal notes for other technicians or supervisors
+<img width="631" height="632" alt="image" src="https://github.com/user-attachments/assets/1e3ca3d2-a538-465a-a171-eda1f1555cd2" />
+
 
 **Example:**  
 The assigned agent reviews Jane Doe’s ticket, identifies the issue, and provides a detailed, professional response explaining the resolution.
@@ -104,7 +117,6 @@ Simulates real-world troubleshooting workflows and professional communication wi
 - Agent collaboration  
 - End-user communication and resolution reporting  
 
-![Agent Working Ticket Screenshot](images/ticket_working.png)
 
 ---
 
